@@ -57,7 +57,7 @@ completion = client.chat.completions.create(
 )
 
 # see if model call function?
-
+#convert response to json
 completion.model_dump_json()
 #messages.append(completion.choices[0].message.model_dump())
 
